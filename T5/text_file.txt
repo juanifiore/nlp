@@ -1,0 +1,37 @@
+Human: hello
+Human: hello
+Assistant: Assistant: i'm a sailor
+
+Human: how are you?
+Assistant: Assistant: You are
+
+Human: what color is a blue car?
+Assistant: Assistant: white
+
+Human: hello
+Assistant: i'm a sailor
+
+Human: can you speak spanish?
+Assistant: yes
+
+Human: how do i say hello in spanish?
+Assistant: Qué te gusta?
+
+Human: hola como estas?
+Assistant: Alguna hola como estas?
+
+Human: de que color es un auto amarillo?
+Assistant: yellow
+
+Human: what color ir a blue car?
+Assistant: azure
+
+Human: what color is a yellow car?
+Assistant: yellow
+
+Human: what color is the sun?
+Assistant: red
+
+Human: what color is the moon?
+Assistant: blue
+

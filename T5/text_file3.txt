@@ -1,0 +1,51 @@
+Human: hello
+hello
+
+Human: how are you
+How are you?
+
+Human: how are you?
+good
+
+Human: can you ask to me how i am?
+good
+
+Human: when was founded ford?
+1908
+
+Human: which was the first ford car model?
+Ford Model T
+
+Human: when was launched ford model t?
+1908
+
+Human: at what time does the sun rises?
+UTC07:00
+
+Human: at what time does the sun rises in norway?
+UTC07:00
+
+Human: at what time does the sun rises in alaska during the winter?
+UTC07:00
+
+Human: how to make a chocolate cake
+Chocolate cake
+
+Human: can you speak spanish?
+yes
+
+Human: hola como estas/
+Hello
+
+Human: hola como estas?
+Hello
+
+Human: me podrias decir de que color es el sol?
+azules
+
+Human: de que color es el carro blanco?
+una vez
+
+Human: sabes hablar español?
+yes
+

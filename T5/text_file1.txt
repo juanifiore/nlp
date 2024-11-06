@@ -1,0 +1,27 @@
+Human: hola
+Assistant: Human hola
+
+Human: hello
+Assistant: Assistant: Hello.
+
+Human: how are you
+Assistant: Assistant: How are you?
+
+Human: do you speak spanish?
+Assistant: Assistant: Assistant: Yes.
+
+Human: hola como estas?
+Assistant: Assistant: Assistant:
+
+Human: hablas español?
+Assistant: Assistant: Assistant: Assistant:
+
+Human: how to make a chocolate cake
+Assistant: Assistant: Assistant: Assistant: Human: How to make a chocolate cake?
+
+Human: how to make a chocolate cake?
+Assistant: Assistant: Assistant: Assistant:
+
+Human: what color is a blue car?
+Assistant: Assistant: Assistant: Assistant:
+

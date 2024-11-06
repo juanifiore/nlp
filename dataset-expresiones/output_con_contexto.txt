@@ -1,0 +1,40 @@
+Cosine Similarity con contexto entre white y blanco: 0.3653542995452881
+Cosine Similarity out of context entre white y blanco: 0.49158817529678345
+Cosine Similarity con contexto entre black y negro: 0.5864871144294739
+Cosine Similarity out of context entre black y negro: 0.6704844832420349
+Cosine Similarity con contexto entre cat y gato: 0.6248722076416016
+Cosine Similarity out of context entre cat y gato: 0.6069247722625732
+Cosine Similarity con contexto entre dog y perro: 0.4847908616065979
+Cosine Similarity out of context entre dog y perro: 0.565125584602356
+Cosine Similarity con contexto entre sun y sol: 0.5292933583259583
+Cosine Similarity out of context entre sun y sol: 0.639245867729187
+Cosine Similarity con contexto entre moon y luna: 0.48335325717926025
+Cosine Similarity out of context entre moon y luna: 0.5251132249832153
+Cosine Similarity con contexto entre tree y árbol: 0.30141037702560425
+Cosine Similarity out of context entre tree y árbol: 0.4503476023674011
+Cosine Similarity con contexto entre water y agua: 0.451956182718277
+Cosine Similarity out of context entre water y agua: 0.5934344530105591
+Cosine Similarity con contexto entre flower y flor: 0.7343424558639526
+Cosine Similarity out of context entre flower y flor: 0.7777549028396606
+Cosine Similarity con contexto entre house y casa: 0.8828989267349243
+Cosine Similarity out of context entre house y casa: 0.8647058606147766
+Cosine Similarity con contexto entre fire y fuego: 0.4085220694541931
+Cosine Similarity out of context entre fire y fuego: 0.5936307907104492
+Cosine Similarity con contexto entre river y río: 0.54501873254776
+Cosine Similarity out of context entre river y río: 0.6343051195144653
+Cosine Similarity con contexto entre wind y viento: 0.4220532178878784
+Cosine Similarity out of context entre wind y viento: 0.5619818568229675
+Cosine Similarity con contexto entre mountain y montaña: 0.5666792988777161
+Cosine Similarity out of context entre mountain y montaña: 0.6162256002426147
+Cosine Similarity con contexto entre leaf y hoja: 0.3842798173427582
+Cosine Similarity out of context entre leaf y hoja: 0.5602966547012329
+Cosine Similarity con contexto entre storm y tormenta: 0.5923267602920532
+Cosine Similarity out of context entre storm y tormenta: 0.6484111547470093
+Cosine Similarity con contexto entre cloud y nube: 0.4769400358200073
+Cosine Similarity out of context entre cloud y nube: 0.5298694968223572
+Cosine Similarity con contexto entre star y estrella: 0.5213775038719177
+Cosine Similarity out of context entre star y estrella: 0.5535129904747009
+Cosine Similarity con contexto entre river y mar: 0.39803892374038696
+Cosine Similarity out of context entre river y mar: 0.5034411549568176
+Cosine Similarity con contexto entre earth y tierra: 0.5654444694519043
+Cosine Similarity out of context entre earth y tierra: 0.6633032560348511

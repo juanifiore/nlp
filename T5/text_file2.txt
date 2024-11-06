@@ -1,0 +1,42 @@
+Human: hello
+Assistant: hello
+
+Human: how are you?
+Assistant: good
+
+Human: what color is a blue car?
+Assistant: Assistant: blue
+
+Human: what color is the sun?
+Assistant: Assistant: Assistant: yellow
+
+Human: hello
+Assistant: Assistant:
+
+Human: how are you
+Assistant: good
+
+Human: hello
+Assistant:
+
+Human: how are you
+Assistant: good
+
+Human: what was the first car model of Ford?
+Assistant: Assistant: Ford Model T
+
+Human: who is better ford or chevrolet?
+Assistant: Chevrolet
+
+Human: why?
+Chevrolet was founded in 1908
+
+Human: and why is better chevrolet than ford?
+Assistant: Chevrolet was founded in 1908
+
+Human: when was founded ford?
+Assistant: Ford Model T
+
+Human: what year was founded ford?
+Assistant: Ford Model T
+

@@ -9,10 +9,18 @@ from sklearn.preprocessing import normalize
 
 # CARGAR EMBEDDINGS .npy 
 
-embeddings = np.load('embeddings/topic_sentences.npy')
+embeddings = np.load('embeddings/7500_ag_news.npy')
 
 # NORMALIZAR EMBEDDINGS 
 #embeddings = normalize(embeddings, norm='l2')
+
+# =============================
+# REDUCCION DE DIMENSION PREVIA A CLUSTERIZAR 
+# =============================
+
+umap = UMAP(n_components=2, random_state=42, n_neighbors=20, min_dist=0.1, metric = 'cosine')
+embeddings = umap.fit_transform(embeddings)
+
 
 
 # ======================
@@ -38,9 +46,8 @@ else:
 # ============================================
 
 print('USANDO UMAP PARA REDUCCION DE DIMENSION....')
-umap = UMAP(n_components=2, random_state=42, n_neighbors=15, min_dist=0.1)
 df_umap = (
-    pd.DataFrame(umap.fit_transform(np.array(embeddings)), columns=['x', 'y'])
+    pd.DataFrame((embeddings), columns=['x', 'y'])
     .assign(cluster=lambda df: hdb.labels_.astype(str))
     #.query('cluster != "-1"')  # descomentar para eliminar los documentos considerados 'ruido' del grafico
     .sort_values(by='cluster')
@@ -51,3 +58,22 @@ print('GRAFICANDO CLUSTERS...')
 fig = px.scatter(df_umap, x='x', y='y', color='cluster')
 fig.show()
 # ----------------------------------------------------------------------------
+
+# ============================================
+# REDUCCION DE LA DIMENSION PARA VISUALIZACION 
+# ============================================
+#
+#print('USANDO UMAP PARA REDUCCION DE DIMENSION....')
+#umap = UMAP(n_components=2, random_state=42, n_neighbors=15, min_dist=0.1, metric = 'cosine')
+#df_umap = (
+#    pd.DataFrame(umap.fit_transform(np.array(embeddings)), columns=['x', 'y'])
+#    .assign(cluster=lambda df: hdb.labels_.astype(str))
+#    #.query('cluster != "-1"')  # descomentar para eliminar los documentos considerados 'ruido' del grafico
+#    .sort_values(by='cluster')
+#)
+## ----------------------------------------------------------------------------
+## columna para el tamaño del punto
+#print('GRAFICANDO CLUSTERS...')
+#fig = px.scatter(df_umap, x='x', y='y', color='cluster')
+#fig.show()
+## ----------------------------------------------------------------------------
